@@ -1,0 +1,149 @@
+body {
+    background-color: #FAF5EF;
+}
+
+#kenguru {
+    width: 35%;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+#rating {
+    color: #D5801D;
+    font-size: 4vw;
+    font-weight: 700;
+    margin-left: 2vw;
+    padding-top: 2.2vw;
+    width: auto;
+}
+
+#box {
+    font-size: 1.7vw;
+    padding-top: 4vw;
+    size: auto;
+    width: 49vw;
+
+}
+
+#search {
+    border: 1px solid #535353;
+    height: 2.6vw;
+    color: #222;
+    border-radius: 6px;
+}
+
+#options {
+    border: 1px solid #535353;
+    margin-left: 20px;
+    height: 2.6vw;
+    border-radius: 6px;
+}
+
+@media (max-width: 631px) {
+    #rating {
+        color: #D5801D;
+        font-size: 6vw;
+        font-weight: 700;
+        margin-left: 2vw;
+        padding-top: 1.3vw;
+        width: auto;
+    }
+
+    #box {
+        font-size: 2.4vw;
+        padding-top: 4vw;
+        size: auto;
+        width: 100vw;
+    }
+
+    #search {
+        margin-left: 2vw;
+        padding-left: 4vw;
+        font-size: 2.4vw;
+        height: 5vw;
+    }
+
+    #options {
+        margin-left: 30px;
+        height: 5vw;
+    }
+
+    .fas {
+        z-index: 1;
+        padding-top: 1.3vw;
+        padding-left: 3vw;
+        position: absolute;
+        color: #aaa;
+    }
+    #PersonalData{
+        position:absolute;
+        margin-top:35vw;
+        margin-left:8vw;
+        width: 76vw;
+        min-width: auto;
+    }
+    td:first-child{
+        position:relative;
+        padding-left: 4vw;
+        border-radius: 3vw 0 0 3vw;
+    }
+    td:last-child{
+        position:relative;
+        padding-left: 4vw;
+        border-radius:  0 3vw 3vw 0;
+    }
+    #row{
+        background-color: #fff;
+        border: 1px solid #535353;
+        font-size: 3.5vw;
+    }
+}
+
+@media (max-width: 5000px) and (min-width: 629px) {
+ 	#kenguru{
+        width: 35%;
+        margin: auto;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    #rating{
+        color: #D5801D;
+        font-size: 4vw;
+        font-weight: 700;
+        margin-left: 2vw;
+        padding-top: 2.2vw;
+        width: auto;
+    }
+
+    #box{
+        font-size: 1.7vw;
+        padding-top: 4vw;
+        size: auto;
+        width: 47vw;
+    }
+
+    #search {
+        height: 2.6vw;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+
+    #options {
+        margin-left: 20px;
+        height: 2.6vw;
+        width: 19vw;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+
+    }
+
+    .fas {
+        z-index: 1;
+        margin-top: 0.5vw;
+        margin-left: 15.6vw;
+        position: absolute;
+        /*position: absolute;*/
+        color: #aaa;
+    }
+   
+}
