@@ -1,2 +1,2 @@
 # Kenguru
-KenguruProject
+Our kenguru landing-page!
